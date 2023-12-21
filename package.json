@@ -1,0 +1,19 @@
+{
+  "name": "dotx-pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "convert-multiple-files-ul": "^1.0.1",
+    "docx-templates": "^4.11.3",
+    "libreoffice": "^0.4.5",
+    "libreoffice-convert": "^1.5.1"
+  }
+}
