@@ -1,0 +1,149 @@
+{
+  "type": "Tech Write",
+  "pages": "11",
+  "classification": "Private",
+  "title": "This is test doc title",
+  "code": "213XA-3S:EW12:WEDR/2",
+  "docList": [
+    {
+      "name": "Requirement document",
+      "code": "CM-IEC 62443-3-3",
+      "version": "1.2",
+      "docId": "123445-78-910-abc",
+      "publish": {
+        "date": "17/11/2023",
+        "by": "Admin"
+      },
+      "updated": "20/12/2023",
+      "state": "Active",
+      "tableHeaders": [
+        "Document Ref.",
+        "Section",
+        "Req. ID",
+        "Req. Type",
+        "SL 1",
+        "SL 2"
+      ],
+      "tableData": [
+        {
+          "docRef": "IEC2443-3-3-2013 01",
+          "section": "5.3",
+          "reqId": "SR 1.1",
+          "reqType": "SR",
+          "sl1": true,
+          "sl2": false
+        },
+        {
+          "docRef": "IEC2443-3-3-2013 02",
+          "section": "6.3",
+          "reqId": "SR 1.2",
+          "reqType": "SF",
+          "sl1": true,
+          "sl2": true
+        },
+        {
+          "docRef": "IEC2443-3-3-2013 03",
+          "section": "7.3",
+          "reqId": "SR 1.3",
+          "reqType": "ST",
+          "sl1": true,
+          "sl2": true
+        },
+        {
+          "docRef": "IEC2443-3-3-2013 04",
+          "section": "8.3",
+          "reqId": "SR 1.4",
+          "reqType": "SK",
+          "sl1": false,
+          "sl2": false
+        },
+        {
+          "docRef": "IEC2443-3-3-2013 05",
+          "section": "9.3",
+          "reqId": "SR 1.5",
+          "reqType": "RR",
+          "sl1": false,
+          "sl2": true
+        },
+        {
+          "docRef": "IEC2443-3-3-2013 06",
+          "section": "1.3",
+          "reqId": "SR 1.6",
+          "reqType": "SR",
+          "sl1": true,
+          "sl2": false
+        }
+      ]
+    },
+    {
+      "name": "Requirement document 2",
+      "code": "CM-IEC 12843-4-5",
+      "version": "2.0",
+      "docId": "554321-78-910-abc",
+      "publish": {
+        "date": "16/11/2023",
+        "by": "Admin"
+      },
+      "updated": "14/12/2023",
+      "state": "Frozen",
+      "tableHeaders": [
+        "Document Ref.",
+        "Section",
+        "Req. ID",
+        "Req. Type",
+        "SL 4",
+        "SL 3"
+      ],
+      "tableData": [
+        {
+          "docRef": "IEC2443-3-3-2013 01",
+          "section": "3.3",
+          "reqId": "SR 1.1",
+          "reqType": "SR",
+          "sl1": true,
+          "sl2": false
+        },
+        {
+          "docRef": "IEC2443-3-3-2013 02",
+          "section": "2.3",
+          "reqId": "SR 1.2",
+          "reqType": "SF",
+          "sl1": true,
+          "sl2": true
+        },
+        {
+          "docRef": "IEC2443-3-3-2013 03",
+          "section": "1.3",
+          "reqId": "SR 1.3",
+          "reqType": "ST",
+          "sl1": true,
+          "sl2": true
+        },
+        {
+          "docRef": "IEC2443-3-3-2013 04",
+          "section": "9.4",
+          "reqId": "SR 1.4",
+          "reqType": "SK",
+          "sl1": false,
+          "sl2": false
+        },
+        {
+          "docRef": "IEC2443-3-3-2013 05",
+          "section": "9.5",
+          "reqId": "SR 1.8",
+          "reqType": "RR",
+          "sl1": false,
+          "sl2": true
+        },
+        {
+          "docRef": "IEC2443-3-3-2013 06",
+          "section": "1.3",
+          "reqId": "SR 1.6",
+          "reqType": "SR",
+          "sl1": true,
+          "sl2": false
+        }
+      ]
+    }
+  ]
+}

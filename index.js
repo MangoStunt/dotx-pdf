@@ -5,15 +5,16 @@ import { fileURLToPath } from 'url';
 import {convertWordFiles} from "convert-multiple-files-ul";
 
 //// Some mocked data
-const fileName = 'INStype2.dotx';
+const fileName = 'INStype.dotx';
 const fileType = 'pdf'
-const data = {
-    type: 'Tech Write',
-    pages: '11',
-    classification: 'Private',
-    title: 'This is test doc title',
-    code: '213XA-3S:EW12:WEDR/2'
-}
+// const data = {
+//     type: 'Tech Write',
+//     pages: '11',
+//     classification: 'Private',
+//     title: 'This is test doc title',
+//     code: '213XA-3S:EW12:WEDR/2'
+// }
+const data = JSON.parse(fs.readFileSync('./shared/mocked-data.json', 'utf8'));
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const inputPath = path.join(__dirname, '/test-files/temp.dotx')
@@ -28,7 +29,7 @@ async function passData(data) {
 
     const buffer = new Buffer.from(uint8arr)
 
-    fs.writeFileSync('./test-files/temp.docx', buffer)
+    fs.writeFileSync('./test-files/temp.dotx', buffer)
 }
 
 async function convertToPDF(inputPath) {
